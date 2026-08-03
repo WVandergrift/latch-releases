@@ -7,12 +7,15 @@
     <language>en</language>
     <item>
       <title>Latch 1.0.1</title>
-      <pubDate>Mon, 03 Aug 2026 19:27:57 +0000</pubDate>
+      <pubDate>Mon, 03 Aug 2026 19:28:45 +0000</pubDate>
       <sparkle:version>1.0.1</sparkle:version>
       <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-Updated to 1.0.1.
+<p>Grids can now be anything from <strong>1&times;1 up to 16&times;16</strong> &mdash; in the drag grid, in your saved placements, and in the introduction. The old limit was 8&times;8, and 2&times;2 at the low end.</p>
+<p>A single row or column is genuinely useful: one column means dragging anywhere across the screen fills the width, which is the fastest possible &ldquo;maximise&rdquo;.</p>
+<p><strong>Fixed:</strong> a placement whose grid was made smaller could keep a selection from the larger grid and place the window off-screen. Placements now stay on-screen however the grid is resized.</p>
+<p><strong>Also:</strong> builds are now universal, so Latch runs natively on both Apple silicon and Intel Macs.</p>
       ]]></description>
       <enclosure
         url="https://github.com/WVandergrift/latch-releases/releases/download/v1.0.1/Latch.dmg"
