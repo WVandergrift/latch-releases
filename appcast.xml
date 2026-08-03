@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Latch</title>
+    <link>https://raw.githubusercontent.com/WVandergrift/latch-releases/main/appcast.xml</link>
+    <description>Updates for Latch, a grid window manager for macOS.</description>
+    <language>en</language>
+    <item>
+      <title>Latch 1.0.1</title>
+      <pubDate>Mon, 03 Aug 2026 19:27:57 +0000</pubDate>
+      <sparkle:version>1.0.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+Updated to 1.0.1.
+      ]]></description>
+      <enclosure
+        url="https://github.com/WVandergrift/latch-releases/releases/download/v1.0.1/Latch.dmg"
+        sparkle:os="macos"
+        type="application/octet-stream"
+        sparkle:edSignature="/zCH5AFMCEfJNi4hbsf4/lNppYOopKUmthmW5COb+jWZoxPj8YiyDaQlvbG565wbOOmZ9adgrgO08PJSkyjRAw==" length="3284576" />
+    </item>
+  </channel>
+</rss>
