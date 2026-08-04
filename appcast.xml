@@ -6,22 +6,30 @@
     <description>Updates for Latch, a grid window manager for macOS.</description>
     <language>en</language>
     <item>
-      <title>Latch 1.0.1</title>
-      <pubDate>Mon, 03 Aug 2026 19:28:45 +0000</pubDate>
-      <sparkle:version>1.0.1</sparkle:version>
-      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <title>Latch 1.0.2</title>
+      <pubDate>Tue, 04 Aug 2026 04:44:02 +0000</pubDate>
+      <sparkle:version>1.0.2</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-<p>Grids can now be anything from <strong>1&times;1 up to 16&times;16</strong> &mdash; in the drag grid, in your saved placements, and in the introduction. The old limit was 8&times;8, and 2&times;2 at the low end.</p>
-<p>A single row or column is genuinely useful: one column means dragging anywhere across the screen fills the width, which is the fastest possible &ldquo;maximise&rdquo;.</p>
-<p><strong>Fixed:</strong> a placement whose grid was made smaller could keep a selection from the larger grid and place the window off-screen. Placements now stay on-screen however the grid is resized.</p>
-<p><strong>Also:</strong> builds are now universal, so Latch runs natively on both Apple silicon and Intel Macs.</p>
+<ul>
+  <li>Describe the release as it is now: one command</li>
+  <li>Make a release one command with nothing to prepare</li>
+  <li>Ship a release with one command</li>
+  <li>Let a placement drag start from any cell</li>
+  <li>Turn the licensing plan into a record of what was built</li>
+  <li>Sell Latch from inside Latch</li>
+  <li>Notice when Accessibility access goes away, and say so</li>
+  <li>Stop every install from revoking Accessibility</li>
+  <li>Open System Settings via the modern Privacy pane</li>
+  <li></li>
+</ul>
       ]]></description>
       <enclosure
-        url="https://github.com/WVandergrift/latch-releases/releases/download/v1.0.1/Latch.dmg"
+        url="https://github.com/WVandergrift/latch-releases/releases/download/v1.0.2/Latch.dmg"
         sparkle:os="macos"
         type="application/octet-stream"
-        sparkle:edSignature="/zCH5AFMCEfJNi4hbsf4/lNppYOopKUmthmW5COb+jWZoxPj8YiyDaQlvbG565wbOOmZ9adgrgO08PJSkyjRAw==" length="3284576" />
+        sparkle:edSignature="xvRISw6/UUfYYKkw0tHVZTylUE35UETr7xaU8u2WO0kRa+S6aPgZ7kvaF7gZxYX5KieNq3XNqVRBwSSPWGWlBQ==" length="3533078" />
     </item>
   </channel>
 </rss>
