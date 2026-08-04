@@ -7,8 +7,14 @@
     <language>en</language>
     <item>
       <title>Latch 1.0.2</title>
-      <pubDate>Tue, 04 Aug 2026 04:46:58 +0000</pubDate>
-      <sparkle:version>1.0.2</sparkle:version>
+      <pubDate>Tue, 04 Aug 2026 04:50:59 +0000</pubDate>
+      <!-- sparkle:version is the build number, because that is what Sparkle
+           compares against the running app's CFBundleVersion. Putting the
+           marketing version here instead compares "1.0.2" with "2" and decides
+           the feed is older than what is installed: the update is never
+           offered, and the dialog cheerfully reports the newest version as one
+           the user is not running. shortVersionString is what people read. -->
+      <sparkle:version>3</sparkle:version>
       <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
