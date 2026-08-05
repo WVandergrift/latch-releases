@@ -6,35 +6,28 @@
     <description>Updates for Latch, a grid window manager for macOS.</description>
     <language>en</language>
     <item>
-      <title>Latch 1.0.2</title>
-      <pubDate>Tue, 04 Aug 2026 04:52:26 +0000</pubDate>
+      <title>Latch 1.0.3</title>
+      <pubDate>Wed, 05 Aug 2026 04:08:24 +0000</pubDate>
       <!-- sparkle:version is the build number, because that is what Sparkle
            compares against the running app's CFBundleVersion. Putting the
            marketing version here instead compares "1.0.2" with "2" and decides
            the feed is older than what is installed: the update is never
            offered, and the dialog cheerfully reports the newest version as one
            the user is not running. shortVersionString is what people read. -->
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
 <ul>
-  <li>Describe the release as it is now: one command</li>
-  <li>Make a release one command with nothing to prepare</li>
-  <li>Ship a release with one command</li>
-  <li>Let a placement drag start from any cell</li>
-  <li>Turn the licensing plan into a record of what was built</li>
-  <li>Sell Latch from inside Latch</li>
-  <li>Notice when Accessibility access goes away, and say so</li>
-  <li>Stop every install from revoking Accessibility</li>
-  <li>Open System Settings via the modern Privacy pane</li>
+  <li>A new install experience: the disk image now shows you where to drag Latch, and what to enable once it is there.</li>
+  <li>No changes to the app itself in this release.</li>
 </ul>
       ]]></description>
       <enclosure
-        url="https://github.com/WVandergrift/latch-releases/releases/download/v1.0.2/Latch.dmg"
+        url="https://github.com/WVandergrift/latch-releases/releases/download/v1.0.3/Latch.dmg"
         sparkle:os="macos"
         type="application/octet-stream"
-        sparkle:edSignature="xvRISw6/UUfYYKkw0tHVZTylUE35UETr7xaU8u2WO0kRa+S6aPgZ7kvaF7gZxYX5KieNq3XNqVRBwSSPWGWlBQ==" length="3533078" />
+        sparkle:edSignature="4hMEwmYMM5+Rwtv0bfzCiUdz5Mlv4bRFcvtcLJ0+KdoBHnqpRrNtQMIAw12JbqnsNqWPKxEzCs6CFKDbgy1ICA==" length="4179925" />
     </item>
   </channel>
 </rss>
